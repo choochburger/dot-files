@@ -31,5 +31,5 @@ autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html :%s/\s\+$//e
 map <F1> :FufFile <Enter>
 
 " for MacVim
-:colorscheme koehler
+:colorscheme murphy 
 :set guifont=Bitstream\ Vera\ Sans\ Mono:h12
