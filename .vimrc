@@ -29,3 +29,7 @@ autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html :%s/\s\+$//e
 
 " fuzzy file find key mapping test
 map <F1> :FufFile <Enter>
+
+" for MacVim
+:colorscheme koehler
+:set guifont=Bitstream\ Vera\ Sans\ Mono:h12
