@@ -7,6 +7,7 @@ set softtabstop=2
 set tabstop=2
 set number
 set backspace=2
+set hlsearch
 syntax on
 filetype plugin on
 highlight LineNr ctermfg=magenta ctermbg=black
