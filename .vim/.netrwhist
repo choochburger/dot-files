@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/chrislyons/Projects/ImpulseSave'
+let g:netrw_dirhist_2='/Users/chrislyons/Projects/ImpulseSave/config'
+let g:netrw_dirhist_3='/Users/chrislyons/Projects/ImpulseSave/app/views/client_side'
+let g:netrw_dirhist_4='/Users/chrislyons/Projects/ImpulseSave/public/javascripts'
+let g:netrw_dirhist_5='/Users/chrislyons/Projects/ImpulseSave/public'
+let g:netrw_dirhist_6='/Users/chrislyons/Projects/ImpulseSave'
+let g:netrw_dirhist_7='/Users/chrislyons/Projects/ImpulseSave/config'
+let g:netrw_dirhist_8='/Users/chrislyons/Projects/ImpulseSave/public/javascripts'
