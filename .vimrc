@@ -37,3 +37,7 @@ map <F1> :FufFile <Enter>
 
 " AS3 syntax highlighting
 au BufRead,BufNewFile *.as set filetype=actionscript
+
+" JSON
+" first run 'sudo cpan JSON::XS' then \jt in vim to format
+map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
