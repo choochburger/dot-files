@@ -44,3 +44,6 @@ map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
 
 " Turn off a/v bell
 set vb
+
+" SuperTab
+let g:SuperTabDefaultCompletionType = "context"
