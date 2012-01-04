@@ -26,7 +26,7 @@ noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
 
 " remove trailing whitespace on write for some files
-autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html :%s/\s\+$//e
+autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html,*.coffee :%s/\s\+$//e
 
 " fuzzy file find key mapping test
 map <F1> :FufFile <Enter>
@@ -47,3 +47,9 @@ set vb
 
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
+
+" Coffee Script
+"
+" compile .coffee to .js on write, minus the safety wrapper function, and
+" redraw the current buffer with any errors
+au BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw!
