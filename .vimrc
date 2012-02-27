@@ -47,9 +47,3 @@ set vb
 
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
-
-" Coffee Script
-"
-" compile .coffee to .js on write, minus the safety wrapper function, and
-" redraw the current buffer with any errors
-au BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw!
