@@ -130,14 +130,14 @@ syn region coffeeHeregexComment start=/#/ end=/\ze\/\/\/\|$/ contained
 hi def link coffeeHeregexComment coffeeComment
 
 " Embedded JavaScript
-syn region coffeeEmbed matchgroup=coffeeEmbedDelim
-\                      start=/`/ skip=/\\\\\|\\`/ end=/`/
-\                      contains=@coffeeJS
-hi def link coffeeEmbedDelim Delimiter
+" syn region coffeeEmbed matchgroup=coffeeEmbedDelim
+" \                      start=/`/ skip=/\\\\\|\\`/ end=/`/
+" \                      contains=@coffeeJS
+" hi def link coffeeEmbedDelim Delimiter
 
-syn region coffeeInterp matchgroup=coffeeInterpDelim start=/#{/ end=/}/ contained
-\                       contains=@coffeeAll
-hi def link coffeeInterpDelim PreProc
+" syn region coffeeInterp matchgroup=coffeeInterpDelim start=/#{/ end=/}/ contained
+" \                       contains=@coffeeAll
+" hi def link coffeeInterpDelim PreProc
 
 " A string escape sequence
 syn match coffeeEscape /\\\d\d\d\|\\x\x\{2\}\|\\u\x\{4\}\|\\./ contained display
