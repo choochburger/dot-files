@@ -31,6 +31,9 @@ autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html,*.coffee :%s/\s\+$//e
 " fuzzy file find key mapping test
 map <F1> :FufFile <Enter>
 
+" set current directory to directory of open file
+map <F2> :cd %:p:h<Enter>
+
 " for MacVim
 :colorscheme murphy 
 :set guifont=Bitstream\ Vera\ Sans\ Mono:h14
