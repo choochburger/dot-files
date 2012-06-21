@@ -50,9 +50,3 @@ set vb
 
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
-
-" Map CMD-T to command-t plugin
-if has("gui_macvim")
-  macmenu &File.New\ Tab key=<nop>
-  map <D-t> :CommandT<CR>
-endif
