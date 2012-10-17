@@ -36,7 +36,7 @@ map <F2> :cd %:p:h<Enter>
 
 " for MacVim
 :colorscheme murphy 
-:set guifont=Bitstream\ Vera\ Sans\ Mono:h14
+:set guifont=Menlo:h16
 
 " AS3 syntax highlighting
 au BufRead,BufNewFile *.as set filetype=actionscript
