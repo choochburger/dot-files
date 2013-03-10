@@ -15,6 +15,9 @@ highlight LineNr ctermfg=magenta ctermbg=black
 " pathogen
 execute pathogen#infect()
 
+" CtrlP Find
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 " NERD tree
 map <C-n> :NERDTreeTabsToggle<CR>
 
