@@ -20,8 +20,8 @@ map <C-n> :NERDTreeTabsToggle<CR>
 
 " Tabs
 map <C-t> :tabnew<CR>
-map <C-]> :tabN<CR>
-map <C-[> :tabp<CR>
+map <S-Right> :tabN<CR>
+map <S-Left> :tabp<CR>
 
 " tag completion using ctrl + _
 autocmd Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
@@ -46,7 +46,7 @@ map <F1> :FufFile <Enter>
 map <F2> :cd %:p:h<Enter>
 
 " for MacVim
-:colorscheme murphy 
+:colorscheme murphy
 :set guifont=Menlo:h16
 
 " AS3 syntax highlighting
