@@ -2,7 +2,5 @@
 *.swo
 *.swp
 *.netrwhist
-www/lib/editor.js
-lib/auth/acs/lib.php
 .powrc
 .netrwbook~
