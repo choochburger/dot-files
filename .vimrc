@@ -15,6 +15,9 @@ highlight LineNr ctermfg=magenta ctermbg=black
 " pathogen
 execute pathogen#infect()
 
+" NERD tree
+map <C-n> :NERDTreeToggle<CR>
+
 " tag completion using ctrl + _
 autocmd Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
 
