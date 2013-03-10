@@ -12,6 +12,9 @@ syntax on
 filetype plugin on
 highlight LineNr ctermfg=magenta ctermbg=black
 
+" pathogen
+execute pathogen#infect()
+
 " tag completion using ctrl + _
 autocmd Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
 
