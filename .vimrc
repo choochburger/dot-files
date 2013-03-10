@@ -18,6 +18,11 @@ execute pathogen#infect()
 " NERD tree
 map <C-n> :NERDTreeTabsToggle<CR>
 
+" Tabs
+map <C-t> :tabnew<CR>
+map <C-]> :tabN<CR>
+map <C-[> :tabp<CR>
+
 " tag completion using ctrl + _
 autocmd Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
 
