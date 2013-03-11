@@ -51,6 +51,8 @@ map <F2> :cd %:p:h<Enter>
 " for MacVim
 :colors jellybeans
 :set guifont=Menlo:h16
+highlight Normal ctermbg=None
+highlight LineNr ctermbg=black
 
 " AS3 syntax highlighting
 au BufRead,BufNewFile *.as set filetype=actionscript
