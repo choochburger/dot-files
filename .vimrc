@@ -10,7 +10,7 @@ set backspace=2
 set hlsearch
 syntax on
 filetype plugin on
-highlight LineNr ctermfg=magenta ctermbg=black
+" highlight LineNr ctermfg=magenta ctermbg=black
 
 " pathogen
 execute pathogen#infect()
@@ -49,7 +49,7 @@ map <F1> :FufFile <Enter>
 map <F2> :cd %:p:h<Enter>
 
 " for MacVim
-:colorscheme murphy
+:colors jellybeans
 :set guifont=Menlo:h16
 
 " AS3 syntax highlighting
