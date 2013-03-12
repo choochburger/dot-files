@@ -40,7 +40,7 @@ noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
 
 " remove trailing whitespace on write for some files
-autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html,*.coffee :%s/\s\+$//e
+autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html,*.coffee,*.less,*.css,*.scss :%s/\s\+$//e
 
 " fuzzy file find key mapping test
 map <F1> :FufFile <Enter>
@@ -55,8 +55,10 @@ highlight Normal ctermbg=None
 highlight LineNr ctermbg=black
 highlight NonText ctermbg=black
 
-" AS3 syntax highlighting
+" Syntax highlighting
 au BufRead,BufNewFile *.as set filetype=actionscript
+au BufRead,BufNewFile *.less set filetype=less
+au BufRead,BufNewFile *.scss set filetype=scss
 
 " JSON
 " first run 'sudo cpan JSON::XS' then \jt in vim to format
