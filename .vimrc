@@ -59,6 +59,7 @@ highlight NonText ctermbg=black
 au BufRead,BufNewFile *.as set filetype=actionscript
 au BufRead,BufNewFile *.less set filetype=less
 au BufRead,BufNewFile *.scss set filetype=scss
+au BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/* if &ft == '' | setfiletype nginx | endif 
 
 " JSON
 " first run 'sudo cpan JSON::XS' then \jt in vim to format
