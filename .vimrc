@@ -23,7 +23,7 @@ map <C-n> :NERDTreeTabsToggle<CR>
 
 " Tabs
 map <C-t> :tabnew<CR>
-map <S-Right> :tabN<CR>
+map <S-Right> :tabn<CR>
 map <S-Left> :tabp<CR>
 
 " tag completion using ctrl + _
