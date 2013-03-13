@@ -20,6 +20,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " NERD tree
 map <C-n> :NERDTreeTabsToggle<CR>
+let NERDTreeShowHidden=1
 
 " Tabs
 map <C-t> :tabnew<CR>
