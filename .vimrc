@@ -33,16 +33,6 @@ map <S-Left> :tabp<CR>
 " tag completion using ctrl + _
 autocmd Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
 
-" disable arrow keys
-inoremap  <Up>     <NOP>
-inoremap  <Down>   <NOP>
-inoremap  <Left>   <NOP>
-inoremap  <Right>  <NOP>
-noremap   <Up>     <NOP>
-noremap   <Down>   <NOP>
-noremap   <Left>   <NOP>
-noremap   <Right>  <NOP>
-
 " remove trailing whitespace on write for some files
 autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html,*.coffee,*.less,*.css,*.scss :%s/\s\+$//e
 
