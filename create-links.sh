@@ -15,3 +15,6 @@ cd ~/
 for i in ${files[@]}; do
   ln -s ~/dot-files/$i $i
 done
+
+# link up the global gitignore
+git config --global core.excludesfile ~/dot-files/.gitignore_global
