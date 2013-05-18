@@ -48,6 +48,9 @@ map <F2> :cd %:p:h<Enter>
 highlight Normal ctermbg=None
 highlight LineNr ctermbg=black
 highlight NonText ctermbg=black
+highlight Normal guibg=black
+highlight LineNr guibg=black
+highlight NonText guibg=black
 
 " Syntax highlighting
 au BufRead,BufNewFile *.as set filetype=actionscript
