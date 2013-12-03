@@ -34,7 +34,7 @@ map <S-Left> :tabp<CR>
 autocmd Filetype html,xml,xsl source ~/.vim/scripts/closetag.vim
 
 " remove trailing whitespace on write for some files
-autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html,*.coffee,*.less,*.css,*.scss :%s/\s\+$//e
+autocmd BufWritePre *.js,*.rb,*.as,*.xml,*.html,*.coffee,*.less,*.css,*.scss,*.jade :%s/\s\+$//e
 
 " fuzzy file find key mapping test
 map <F1> :FufFile <Enter>
