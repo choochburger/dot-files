@@ -67,3 +67,9 @@ set vb
 
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
+
+" Folding
+set foldmethod=indent
+set foldcolumn=0
+set foldlevel=99
+set mouse=a
