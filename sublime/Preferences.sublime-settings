@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 15,
+	"ignored_packages":
+	[
+	],
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
