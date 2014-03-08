@@ -51,6 +51,7 @@ highlight NonText ctermbg=black
 highlight Normal guibg=black
 highlight LineNr guibg=black
 highlight NonText guibg=black
+highlight FoldColumn ctermbg=black
 
 " Syntax highlighting
 au BufRead,BufNewFile *.as set filetype=actionscript
