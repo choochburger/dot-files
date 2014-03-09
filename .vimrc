@@ -63,6 +63,9 @@ au BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/* if &ft == '' | setfil
 " first run 'sudo cpan JSON::XS' then \jt in vim to format
 map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
 
+" Paste Toggle
+map <leader>p :set paste!<CR>
+
 " Turn off a/v bell
 set vb
 
