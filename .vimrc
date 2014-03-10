@@ -72,8 +72,13 @@ set vb
 " SuperTab
 let g:SuperTabDefaultCompletionType = "context"
 
+" Fold Toggle
+map <leader>f :set foldcolumn=1<CR>
+
 " Folding
 set foldmethod=indent
-set foldcolumn=1
+set foldcolumn=0
 set foldlevel=99
+
+" Mouse
 set mouse=a
