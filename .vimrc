@@ -20,6 +20,7 @@ execute pathogen#infect()
 
 " CtrlP Find
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_working_path_mode=''
 
 " NERD tree
 map <C-n> :NERDTreeTabsToggle<CR>
