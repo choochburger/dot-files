@@ -1,0 +1,26 @@
+{
+	"auto_complete": true,
+	"autocomplete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.js"
+		}
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		"build",
+		"node_modules",
+		"workdir",
+		"bin/coverage"
+	],
+	"font_size": 12,
+	"ignored_packages":
+	[
+	],
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

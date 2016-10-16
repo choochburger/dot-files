@@ -245,15 +245,17 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>995 77 445 270 0 0 1440 878 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>300 569 606 456 0 0 1680 1027 </string>
+	<string>268 519 606 456 0 0 1600 977 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>768 1746 384 129 0 1050 1920 1057 </string>
+	<string>1229 36 400 129 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 477 620 392 0 0 1680 1027 </string>
+	<string>490 439 620 392 0 0 1600 977 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>269 175 937 512 0 0 1680 1027 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>384 518 592 584 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 575 585 452 0 0 1680 1027 </string>
+	<string>0 10 1677 1017 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 1060 1915 1047 0 1050 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -869,7 +871,7 @@
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
-			<false/>
+			<true/>
 			<key>Smart Cursor Color</key>
 			<true/>
 			<key>Smart Selection Rules</key>
@@ -1786,6 +1788,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/clyons/dot-files</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1801,11 +1805,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing3.xml?shard=50</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=50</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-06-08T11:48:14Z</date>
+	<date>2016-09-21T23:02:54Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>ShowBookmarkName</key>
@@ -1853,6 +1857,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.1</string>
+	<string>3.0.10</string>
 </dict>
 </plist>

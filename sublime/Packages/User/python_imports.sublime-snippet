@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+import os, sys
+sys.path.insert(0, "../eureqa_api")
+from eureqa.analysis_cards import *
+from eureqa.analysis.components import *
+import eureqa
+conn = eureqa.Eureqa("http://localhost:10002", "root", "Changeme1", organization="casper")
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>imports</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
