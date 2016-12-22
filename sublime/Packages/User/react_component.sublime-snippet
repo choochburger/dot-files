@@ -1,0 +1,36 @@
+<snippet>
+    <content><![CDATA[
+define([
+    'utils/ReactMixins',
+    'react'
+],
+
+function(
+    ReactMixins,
+    React
+) {
+
+    var Component = React.createClass({
+        mixins: [ReactMixins],
+
+        componentWillMount: function() {
+
+        },
+
+        propTypes: {
+
+        },
+
+        render: function() {
+
+        }
+    });
+
+    return Component;
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>reactcomp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.javascript</scope>
+</snippet>

@@ -12,6 +12,7 @@
 		"Git",
 		"GitGutter",
 		"Handlebars",
+		"HTML-CSS-JS Prettify",
 		"Jade",
 		"JsFormat",
 		"Package Control",
@@ -19,6 +20,7 @@
 		"SyncedSideBar",
 		"Syntax Highlighting for Sass",
 		"Tag",
-		"TodoReview"
+		"TodoReview",
+		"Twig"
 	]
 }
