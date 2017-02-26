@@ -1,0 +1,4 @@
+{
+    "cmd": ["/Users/clyons/node-env-7.4.0/bin/node", "$file"],
+    "selector": "source.js"
+}
