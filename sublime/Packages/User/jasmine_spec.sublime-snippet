@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+define([
+    'utils/JasmineHelpers'
+],
+
+function(
+    JasmineHelpers
+) {
+
+    describe('${1}', function() {
+
+        beforeEach(function() {
+
+        });
+
+        afterEach(function() {
+
+        });
+
+        it('should ', function() {
+
+        });
+
+    });
+
+});
+]]></content>
+    <tabTrigger>spec</tabTrigger>
+</snippet>
