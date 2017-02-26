@@ -1,0 +1,7 @@
+[
+    {
+        "id" : "bit_bucket_link",
+        "caption" : "Show on BitBucket",
+        "command" : "bit_bucket_link"
+    }
+]
